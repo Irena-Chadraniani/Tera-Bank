@@ -1,0 +1,24 @@
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'BPGWEB001Caps';
+  src: local('BPGWEB001Caps'), url(./fonts/bpg-web-001-caps-webfont.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'BPGMrgvlovani';
+  src: local('BPGMrgvlovani'), url(./fonts/bpg_mrgvlovani_2009.ttf) format('ttf');
+}

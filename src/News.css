@@ -1,0 +1,373 @@
+.news {
+    position: relative;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    width: 23%;
+    margin-right: 16px;
+    margin-left: 16px;
+    height: 500px;
+    float: left;
+    }
+
+.new{
+    width: 400px;
+    height: 280px;
+    padding: 38px 0 0;
+    border-radius: 20px;
+    flex-basis: 25%;
+    float: left;
+    position: relative;
+    display: flex;
+    display: inline-block;
+    margin: 0px;
+}
+
+.news1 {
+    margin-right: 120px;
+    margin-left: 120px; 
+    flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform 0.5s; 
+}
+
+.news2 {
+    font-family: BPGMrgvlovani;
+    font-size: 20px;
+    width: 398px;
+    color: #2c2c2c;
+    display: inline-block;
+    margin: 0px;
+    height: 78px;
+}
+
+.news3 {
+    font-family: BPGMrgvlovani;
+    width: 398px;
+    margin: 38px 0px 0px 0px;
+    display: inline-block;
+    font-size: 30px;
+    color: #77be39;
+}
+
+.kursi11 {
+        width: 680px;
+        height: 313px;
+        margin: 36px 54px 36px 120px;
+        padding: 23px 61px 39px 12px;
+        border-radius: 20px;
+        background-color: #971d62;
+        position: relative;
+        display: inline-block;
+        float: left;
+      }
+
+.kursi22 {
+        width: 680px;
+        height: 313px;
+        margin: 36px 120px 36px 54px;
+        padding: 23px 61px 39px 12px;
+        border-radius: 20px;
+        background-color: #971d62;
+        position: relative;
+        display: inline-block;
+        float: left;
+        flex-basis: 50%;
+      }
+
+.kursi1{
+    width: 193px;
+    height: 193px;
+    margin: 61px 95px 20px 61px
+}
+
+.speckursi {
+    width: 310px;
+    height: 25px;
+    margin: 0 65px 11.5px 0;
+    font-family: BPGWEB001Caps;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.speckursi1 {
+    width: 43px;
+    height: 24px;
+    margin: 0 11px 11px 35px;
+    font-family: BPGMrgvlovani;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.speckursi1:hover{
+    text-decoration: underline;
+}
+.speckursi2 {
+    width: 43px;
+    height: 24px;
+    margin: 0 11px 12.5px 11px;
+    font-family: BPGMrgvlovani;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.speckursi2:hover{
+    text-decoration: underline;
+}
+
+.yidva {
+    width: 43px;
+    height: 36px;
+    margin: -200px 61px 27px 355px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+.yidva2 {
+    width: 43px;
+    height: 36px;
+    margin: 67px 200px 70px 355px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+.usakurs1 {
+    width: 43px;
+    height: 36px;
+    margin: -100px 61px 27px 366px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+.usakurs2 {
+    width: 43px;
+    height: 36px;
+    margin: -100px 61px 27px 535px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+.evrokurs1{
+    width: 43px;
+    height: 36px;
+    margin: 167px 200px 70px 366px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+.evrokurs2{
+    width: 43px;
+    height: 36px;
+    margin: 167px 200px 70px 535px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+.gayidva {
+    width: 43px;
+    height: 36px;
+    margin: -200px 61px 27px 505px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+.gayidva2 {
+    width: 43px;
+    height: 36px;
+    margin: 67px 200px 70px 505px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+}
+
+.samomsxmareblosesxi { 
+    width: 1660px;
+    height: 661px;
+    margin: 29px 120px 137px;
+    border-radius: 20px;
+    background-color: #d5d5d5;
+    position: relative;
+}
+
+.samomxmareblo {
+    font-family: BPGWEB001Caps;
+    font-size: 25px;  
+    bottom: 8px;
+    margin: 80px 150px 225px 140px;
+    width: 450px;
+    text-align: left;
+    color: white;
+    position:absolute;
+}
+
+.samsesxi{
+    position: relative;
+}
+
+.mobiluri{
+    margin: 0px 54px 26px 300px;
+    font-family: BPGWEB001Caps;
+    font-size: 45px;
+    text-align: left;
+    color: #77be39;
+}
+
+.mobilurii{
+    position: relative;
+}
+
+.mobiluri2{
+  width: 1900px;
+  height: 471px;
+  opacity: 0.11;
+  background-color: #77be39;
+  position: relative;
+}
+
+.mobiluri3{
+    width: 773px;
+    height: 162px;
+    margin: -450px 54px 26px 300px;
+    font-family: BPGMrgvlovani;
+    font-size: 35px;
+    text-align: left;
+    color: black;
+    opacity: 1;
+    position: absolute;
+}
+
+.GooglePlay{
+    position: absolute;
+    width: 430px;
+    height: 287px; 
+    margin: -250px 54px 26px 300px; 
+}
+
+.MobileApp{
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    display: inline-block;
+    margin: -500px 54px 26px 900px;
+}
+
+.footer{
+    width: 1900px;
+    height: 401px;
+    margin: 108px 0 0 0px;
+    background-color: #971d62;
+    position: relative;
+  }
+
+  .footerLogo{
+    width: 294px;
+    height: 294px;
+    position: absolute;
+    margin: -450px 0px 200px 200px;
+    }
+
+.facebook{
+    width: 41.7px;
+    height: 41.7px;
+    position: absolute;
+    margin: -200px 0px 200px 220px;
+    }
+
+.twitter{
+    width: 41.7px;
+    height: 41.7px;
+    position: absolute;
+    margin: -200px 0px 0px 290px;
+    }  
+    
+.youtube{
+    width: 41.7px;
+    height: 41.7px;
+    position: absolute;
+    margin: -200px 0px 0px 360px;
+    } 
+
+.instagram{
+    width: 41.7px;
+    height: 41.7px;
+    position: absolute;
+    margin: -200px 0px 0px 430px;
+    } 
+
+.aboutus{
+   font-family: BPGWEB001Caps;
+   font-size: 27px;
+   color:white;
+   position: absolute;
+   margin: -320px 0px 0px 650px;
+}
+
+.rules{
+    font-family: BPGWEB001Caps;
+    font-size: 27px;
+    color:white;
+    position: absolute;
+    margin: -320px 0px 0px 1000px;
+ }
+
+ .terabank{
+    font-family: BPGWEB001Caps;
+    font-size: 27px;
+    color:white;
+    position: absolute;
+    margin: -320px 0px 0px 1450px;
+ }
+
+ .aboutus1{
+    font-family: BPGMrgvlovani;
+    font-size: 20px;
+    width: 255px;
+    height: 90px;
+    color:white;
+    position: absolute;
+    line-height: 1.06;
+    margin: -250px 0px 0px 650px;
+ }
+ 
+ .rules1{
+    font-family: BPGMrgvlovani;
+    font-size: 20px;
+    width: 350px;
+    height: 90px;
+    color:white;
+    position: absolute;
+    line-height: 1.06;
+    margin: -250px 0px 0px 1000px;
+ }
+
+ .terabank1{
+    font-family: BPGMrgvlovani;
+    font-size: 20px;
+    width: 350px;
+    height: 90px;
+    color:white;
+    position: absolute;
+    line-height: 1.06;
+    margin: -250px 0px 0px 1450px;
+ }
