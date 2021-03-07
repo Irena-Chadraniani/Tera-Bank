@@ -16,15 +16,25 @@ import {
     useHistory
 } from "react-router-dom"
 import Home from "./Home";
-import Chemtvis from "./Chemtvis";
-import Biznesistvis from "./Biznesistvis";
 import TeraPay from "./TeraPay";
 import InternetBankingi from "./InternetBankingi";
 import SamomxmarebloSesxi from "./SamomxmarebloSesxi";
+import PlastikuriBaratebi from "./PlastikuriBaratebi";
 import Footer from "./Footer";
-
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import React from 'react';
 
 function App() {
+    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
     return (
         <Router>
             <div>
@@ -33,10 +43,40 @@ function App() {
                         <Link to="/Home"><img className="file" src={file} /></Link>
                     </li>
                     <li>
-                        <Link className="Menu1" to="/Chemtvis">ჩემთვის</Link>
+                        <Link className="Menu1" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+                            ჩემთვის</Link>
+                        <Menu
+                            id="simple-menu"
+                            anchorEl={anchorEl}
+                            keepMounted
+                            open={Boolean(anchorEl)}
+                            onClose={handleClose}
+                        >
+                            <MenuItem onClick={handleClose}>სესხები</MenuItem>
+                            <MenuItem onClick={handleClose}>ანაბრები</MenuItem>
+                            <MenuItem onClick={handleClose}>ბარათები</MenuItem>
+                            <MenuItem onClick={handleClose}>ტარიფები</MenuItem>
+                            <MenuItem onClick={handleClose}>გზავნილები</MenuItem>
+                            <MenuItem onClick={handleClose}>სერვისები</MenuItem>
+                        </Menu>
                     </li>
                     <li>
-                        <Link className="Menu2" to="/Biznesistvis">ბიზნესისთვის</Link>
+                        <Link className="Menu2" aria-controls="simple-menu2" aria-haspopup="true" onClick={handleClick}>ბიზნესისთვის</Link>
+                        <Menu
+                            id="simple-menu2"
+                            anchorEl={anchorEl}
+                            keepMounted
+                            open={Boolean(anchorEl)}
+                            onClose={handleClose}
+                        >
+                            <MenuItem onClick={handleClose}>სესხები</MenuItem>
+                            <MenuItem onClick={handleClose}>ანაბრები</MenuItem>
+                            <MenuItem onClick={handleClose}>ბარათები</MenuItem>
+                            <MenuItem onClick={handleClose}>ტარიფები</MenuItem>
+                            <MenuItem onClick={handleClose}>გზავნილები</MenuItem>
+                            <MenuItem onClick={handleClose}>სერვისები</MenuItem>
+
+                        </Menu>
                     </li>
                     <li>
                         <Link className="Rectangle-71" to="/TeraPay">ტერაPay</Link>
@@ -56,23 +96,20 @@ function App() {
                     <Route path="/SamomxmarebloSesxi">
                         <SamomxmarebloSesxi />
                     </Route>
+                    <Route path="/PlastikuriBaratebi">
+                        <PlastikuriBaratebi />
+                    </Route>
                     <Route path="/InternetBankingi">
                         <InternetBankingi />
                     </Route>
                     <Route path="/TeraPay">
                         <TeraPay />
                     </Route>
-                    <Route path="/Biznesistvis">
-                        <Biznesistvis />
-                    </Route>
-                    <Route path="/Chemtvis">
-                        <Chemtvis />
-                    </Route>
                     <Route path="/">
                         <Home />
                     </Route>
                 </Switch>
-<Footer/>
+                <Footer />
             </div>
         </Router>
     );

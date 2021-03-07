@@ -121,7 +121,7 @@ export default function Home() {
 
 
             {/* პლასტიკური ბარათები */}
-            <div className="div"><h2 className="title">პლასტიკური ბარათები</h2> </div>
+            <div className="div"><Link to="/PlastikuriBaratebi" className="title"><h2 className="title">პლასტიკური ბარათები</h2></Link> </div>
             <div className="div2"> <Link className="title2">იხილეთ ყველა</Link> </div>
 
             <div className="sesxi">
