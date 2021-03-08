@@ -44,11 +44,36 @@
 }
 
 .platinum{
-        width: 1600px;
+        width: 900px;
         height: 200px;
-        margin: 43px 120px 73px 120px;
         font-family: BPGMrgvlovani;
         font-size: 20px;
         line-height: 2.4;
         text-align: left;
+        margin: 0px 0px 0px 120px;
+}
+
+.platinum2{
+    width: 1400px;
+    height: 300px;
+    margin: 28px 16px 60px 120px;
+    font-family: BPGMrgvlovani;
+    font-size: 20px;
+    line-height: 2.4;
+    text-align: left;
+}
+
+.dd{
+    display: flex;
+    float: left;
+    margin-bottom: 70px;
+}
+
+.title22 {
+    margin: 51px 74px 29px 140px;
+    font-family: BPGWEB001Caps;
+    font-size: 48px;
+    text-align: right;
+    color: #2c2c2c;
+    text-decoration: none;
 }

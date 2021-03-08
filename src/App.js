@@ -20,6 +20,7 @@ import TeraPay from "./TeraPay";
 import InternetBankingi from "./InternetBankingi";
 import SamomxmarebloSesxi from "./SamomxmarebloSesxi";
 import PlastikuriBaratebi from "./PlastikuriBaratebi";
+import Siaxleebi from "./Siaxleebi";
 import Footer from "./Footer";
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -95,6 +96,9 @@ function App() {
                 <Switch>
                     <Route path="/SamomxmarebloSesxi">
                         <SamomxmarebloSesxi />
+                    </Route>
+                    <Route path="/Siaxleebi">
+                        <Siaxleebi />
                     </Route>
                     <Route path="/PlastikuriBaratebi">
                         <PlastikuriBaratebi />

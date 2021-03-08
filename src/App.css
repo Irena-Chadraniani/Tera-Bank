@@ -38,15 +38,16 @@
 }
 
 .MuiMenuItem-root{
-    height: 50px;
     overflow: hidden;
     font-family: BPGMrgvlovani;
     text-align: center;
     line-height: 1.5;
     font-size: 1.5rem;
+    min-height: max-content;
     }
 
 .MuiList-root{
   color: white;
   background-color: #971d62;
+  min-height: max-content;
 }

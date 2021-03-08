@@ -67,8 +67,9 @@ export default function PlastikuriBaratebi() {
 
     return (
         <div>
+            <div className="links"></div>
             <p className="title">მასტერქარდ სტანდარტი</p>
-            <img className="Mastercard" src={Mastercard} />
+            <div className="dd"><img className="Mastercard" src={Mastercard} />
             <div className="platinum">
                 მასტერქარდ სტანდარტი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში.
                 <ul>
@@ -78,11 +79,12 @@ export default function PlastikuriBaratebi() {
                     <li>ტერაბანკის ბარათების მფლობელთათვის თანხის გადარიცხვის შესაძლებლობა ტერაბანკის ნებისმიერ ბარათზე, ბანკომატის საშუალებით</li>
                 </ul>
             </div>
+            </div>
 
-            <div className="links"></div>
+            <div className="links2"></div>
 
-            <p className="title">ვიზა კლასიკი</p>
-            <img className="Visaclassic" src={Visaclassic} />
+            <p className="title22">ვიზა კლასიკი</p>
+            <div className="dd">
             <div className="platinum">
                 <p>ვიზა კლასიკი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში..</p>
                 <ul>
@@ -92,6 +94,8 @@ export default function PlastikuriBaratebi() {
                     <li>საბარათე ოპერაციების უსაფრთხოების სერვისი.</li>
                 </ul>
             </div>
+            <img className="Visaclassic" src={Visaclassic} />
+            </div>
 
             <div className="links"></div>
 
@@ -100,7 +104,7 @@ export default function PlastikuriBaratebi() {
                 <img className="Gold" src={Gold} />
                 <img className="Gold" src={Platinum} />
             </div>
-            <div className="platinum">
+            <div className="platinum2">
                 <p>მასტერქარდ გოლდი საშუალებას გაძლევთ, მსოფლიოს ნებისმიერ წერტილში მიიღოთ VIP მომსახურება და ფასდაკლებები სხვადასხვა სავაჭრო თუ მომსახურების ობიექტში.</p>
                 <ul>
                     <li>განაღდებისა და ანგარიშსწორების მაღალი ლიმიტი</li>

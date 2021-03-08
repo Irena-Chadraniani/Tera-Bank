@@ -103,7 +103,7 @@ export default function Home() {
 
             {/* იპოთეკური სესხები */}
 
-            <div className="div"><h2 className="title">იპოთეკური სესხები</h2></div>
+            <div className="div"><Link className="title">იპოთეკური სესხები</Link></div>
             <div className="div2"><Link className="title2">იხილეთ ყველა</Link></div>
 
 
@@ -121,7 +121,7 @@ export default function Home() {
 
 
             {/* პლასტიკური ბარათები */}
-            <div className="div"><Link to="/PlastikuriBaratebi" className="title"><h2 className="title">პლასტიკური ბარათები</h2></Link> </div>
+            <div className="div"><Link to="/PlastikuriBaratebi" className="title">პლასტიკური ბარათები</Link> </div>
             <div className="div2"> <Link className="title2">იხილეთ ყველა</Link> </div>
 
             <div className="sesxi">
@@ -138,8 +138,8 @@ export default function Home() {
 
             {/* სიახლეები */}
 
-            <div className="div"><h2 className="title">სიახლეები</h2> </div>
-            <div className="div2"> <Link className="title2">იხილეთ ყველა</Link> </div>
+            <div className="div"><Link className="title" to="/Siaxleebi">სიახლეები</Link></div>
+            <div className="div2"> <Link to="/Siaxleebi" className="title2">იხილეთ ყველა</Link> </div>
 
             <div className="news1">
                 <div className="news">
@@ -169,7 +169,7 @@ export default function Home() {
 
 
             {/* საუკეთესო კურსი */}
-            <div className="div"><Link className="title"><h2 className="title">საუკეთესო კურსი</h2></Link> </div>
+            <div className="div"><Link className="title">საუკეთესო კურსი</Link> </div>
             <div>
                 <div className="kursi11">
                     <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
@@ -202,7 +202,7 @@ export default function Home() {
 
 
             {/* სამომსხმარებლო სესხი */}
-            <div className="div"><Link to="/SamomxmarebloSesxi" className="title"> <h2 className="title">სამომხმარებლო სესხი</h2></Link> </div>
+            <div className="div"><Link to="/SamomxmarebloSesxi" className="title">სამომხმარებლო სესხი</Link> </div>
             <div className="samsesxi">
                 <img className="samomsxmareblosesxi" src={samomsxmareblosesxi} />
                 <div className="samomxmareblo"><h2>აიღე სამომხმარებლო სესხი მარტივად</h2></div>
