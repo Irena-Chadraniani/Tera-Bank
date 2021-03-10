@@ -1,21 +1,17 @@
 .news {
     position: relative;
     text-align: center;
-    color: black;
     display: inline-block;
     width: 23%;
-    margin-right: 16px;
-    margin-left: 16px;
     height: 500px;
     float: left;
     }
 
 .new{
-    width: 400px;
+    width: 80%;
     height: 280px;
     padding: 38px 0 0;
     border-radius: 20px;
-    flex-basis: 25%;
     float: left;
     position: relative;
     display: flex;
@@ -24,19 +20,19 @@
 }
 
 .news1 {
-    margin-right: 120px;
-    margin-left: 120px; 
-    flex-basis: 25%;
-	padding: 10px;
-	min-width: 200px;
+    margin-right: 110px;
+    margin-left: 110px; 
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
 	margin-bottom: 50px;
 	transition: transform 0.5s; 
 }
 
 .news2 {
     font-family: BPGMrgvlovani;
-    font-size: 20px;
-    width: 398px;
+    font-size: 18px;
+    width: 90%;
     color: #2c2c2c;
     display: inline-block;
     margin: 0px;
@@ -45,61 +41,65 @@
 
 .news3 {
     font-family: BPGMrgvlovani;
-    width: 398px;
+    width: 90%;
     margin: 38px 0px 0px 0px;
     display: inline-block;
-    font-size: 30px;
+    font-size: 23px;
     color: #77be39;
 }
 
+.kk {
+    
+    display: inline-block;
+    width: 100%;
+    float: left;
+    }
+
 .kursi11 {
-        width: 680px;
-        height: 313px;
-        margin: 36px 54px 36px 120px;
-        padding: 23px 61px 39px 12px;
-        border-radius: 20px;
-        background-color: #971d62;
-        position: relative;
-        display: inline-block;
-        float: left;
-      }
+    width: 35%;
+    height: 350px;
+    margin: 28px 16px 60px 110px;
+    border-radius: 20px;
+    flex-basis: 50%;
+    background-color: #971d62;
+    float: left;
+    }
 
 .kursi22 {
-        width: 680px;
-        height: 313px;
-        margin: 36px 120px 36px 54px;
-        padding: 23px 61px 39px 12px;
-        border-radius: 20px;
-        background-color: #971d62;
-        position: relative;
-        display: inline-block;
-        float: left;
-        flex-basis: 50%;
-      }
+    width: 35%;
+    height: 350px;
+    margin: 28px 16px 60px 110px;
+    border-radius: 20px;
+    flex-basis: 50%;
+    background-color: #971d62;
+    float: left;
+    }
 
 .kursi1{
-    width: 193px;
-    height: 193px;
-    margin: 61px 95px 20px 61px
+    width: 160px;
+    height: 160px;
+    margin: 40px 300px 20px 51px;
+    padding: 0px;
+    
 }
 
 .speckursi {
-    width: 310px;
+    width: 250px;
     height: 25px;
-    margin: 0 65px 11.5px 0;
+    margin: 15px 0 11.5px 0;
     font-family: BPGWEB001Caps;
-    font-size: 25px;
+    font-size: 19px;
     color: white;
     display: inline-block;
     flex-basis: 50%;
 }
 
 .speckursi1 {
-    width: 43px;
-    height: 24px;
-    margin: 0 11px 11px 35px;
+    width: 40px;
+    height: 20px;
+    margin: 2px 10px 11px 13px;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 19px;
     color: white;
     display: inline-block;
     text-decoration: none;
@@ -109,11 +109,11 @@
     text-decoration: underline;
 }
 .speckursi2 {
-    width: 43px;
-    height: 24px;
+    width: 40px;
+    height: 20px;
     margin: 0 11px 12.5px 11px;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     display: inline-block;
     text-decoration: none;
@@ -124,29 +124,29 @@
 
 .yidva {
     width: 43px;
-    height: 36px;
-    margin: -200px 61px 27px 355px;
+    height: 20px;
+    margin: -190px 51px 27px 250px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
 
 .yidva2 {
     width: 43px;
-    height: 36px;
-    margin: 67px 200px 70px 355px;
+    height: 20px;
+    margin: 41px 200px 70px 250px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
 .usakurs1 {
     width: 43px;
     height: 36px;
-    margin: -100px 61px 27px 366px;
+    margin: -90px 80px 27px 260px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
@@ -154,9 +154,9 @@
 .usakurs2 {
     width: 43px;
     height: 36px;
-    margin: -100px 61px 27px 535px;
+    margin: -90px 51px 27px 390px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
@@ -164,9 +164,9 @@
 .evrokurs1{
     width: 43px;
     height: 36px;
-    margin: 167px 200px 70px 366px;
+    margin: 141px 200px 70px 260px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
@@ -174,9 +174,9 @@
 .evrokurs2{
     width: 43px;
     height: 36px;
-    margin: 167px 200px 70px 535px;
+    margin: 141px 200px 70px 390px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
@@ -184,9 +184,9 @@
 .gayidva {
     width: 43px;
     height: 36px;
-    margin: -200px 61px 27px 505px;
+    margin: -190px 51px 27px 370px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
@@ -194,17 +194,17 @@
 .gayidva2 {
     width: 43px;
     height: 36px;
-    margin: 67px 200px 70px 505px;
+    margin: 41px 200px 70px 390px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     position: absolute;
 }
 
 .samomsxmareblosesxi { 
-    width: 1660px;
-    height: 661px;
-    margin: 29px 120px 137px;
+    width: 80%;
+    height: 600px;
+    margin: 29px 110px 137px;
     border-radius: 20px;
     background-color: #d5d5d5;
     position: relative;
@@ -212,7 +212,7 @@
 
 .samomxmareblo {
     font-family: BPGWEB001Caps;
-    font-size: 25px;  
+    font-size: 21px;  
     bottom: 8px;
     margin: 80px 150px 225px 140px;
     width: 450px;
@@ -238,7 +238,7 @@
 }
 
 .mobiluri2{
-  width: 1900px;
+  width: 100%;
   height: 471px;
   opacity: 0.11;
   background-color: #77be39;
@@ -246,11 +246,11 @@
 }
 
 .mobiluri3{
-    width: 773px;
+    width: 700px;
     height: 162px;
-    margin: -450px 54px 26px 300px;
+    margin: -430px 54px 26px 150px;
     font-family: BPGMrgvlovani;
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
     color: black;
     opacity: 1;
@@ -259,21 +259,21 @@
 
 .GooglePlay{
     position: absolute;
-    width: 430px;
-    height: 287px; 
-    margin: -250px 54px 26px 300px; 
+    width: 400px;
+    height: 250px; 
+    margin: -250px 54px 26px 150px; 
 }
 
 .MobileApp{
-    width: 1000px;
-    height: 600px;
+    width: 900px;
+    height: 580px;
     position: absolute;
     display: inline-block;
-    margin: -500px 54px 26px 900px;
+    margin: -500px 54px 26px 700px;
 }
 
 .footer{
-    width: 1900px;
+    width: 100%;
     height: 401px;
     margin: 108px 0 0 0px;
     background-color: #971d62;
@@ -281,54 +281,54 @@
   }
 
   .footerLogo{
-    width: 294px;
-    height: 294px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    margin: -450px 0px 200px 200px;
+    margin: -450px 0px 200px 100px;
     }
 
 .facebook{
     width: 41.7px;
     height: 41.7px;
     position: absolute;
-    margin: -200px 0px 200px 220px;
+    margin: -250px 0px 100px 100px;
     }
 
 .twitter{
     width: 41.7px;
     height: 41.7px;
     position: absolute;
-    margin: -200px 0px 0px 290px;
+    margin: -250px 0px 0px 175px;
     }  
     
 .youtube{
     width: 41.7px;
     height: 41.7px;
     position: absolute;
-    margin: -200px 0px 0px 360px;
+    margin: -250px 0px 0px 250px;
     } 
 
 .instagram{
     width: 41.7px;
     height: 41.7px;
     position: absolute;
-    margin: -200px 0px 0px 430px;
+    margin: -250px 0px 0px 325px;
     } 
 
 .aboutus{
    font-family: BPGWEB001Caps;
-   font-size: 27px;
+   font-size: 25px;
    color:white;
    position: absolute;
-   margin: -320px 0px 0px 650px;
+   margin: -350px 0px 0px 450px;
 }
 
 .rules{
     font-family: BPGWEB001Caps;
-    font-size: 27px;
+    font-size: 25px;
     color:white;
     position: absolute;
-    margin: -320px 0px 0px 1000px;
+    margin: -350px 0px 0px 750px;
  }
 
  .terabank{
@@ -336,7 +336,7 @@
     font-size: 27px;
     color:white;
     position: absolute;
-    margin: -320px 0px 0px 1450px;
+    margin: -350px 0px 0px 1150px;
  }
 
  .aboutus1{
@@ -347,7 +347,7 @@
     color:white;
     position: absolute;
     line-height: 1.06;
-    margin: -250px 0px 0px 650px;
+    margin: -280px 0px 0px 450px;
  }
  
  .rules1{
@@ -358,7 +358,7 @@
     color:white;
     position: absolute;
     line-height: 1.06;
-    margin: -250px 0px 0px 1000px;
+    margin: -280px 0px 0px 750px;
  }
 
  .terabank1{
@@ -369,5 +369,5 @@
     color:white;
     position: absolute;
     line-height: 1.06;
-    margin: -250px 0px 0px 1450px;
+    margin: -280px 0px 0px 1150px;
  }

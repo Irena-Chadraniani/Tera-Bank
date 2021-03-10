@@ -170,7 +170,8 @@ export default function Home() {
 
             {/* საუკეთესო კურსი */}
             <div className="div"><Link className="title">საუკეთესო კურსი</Link> </div>
-            <div>
+            <div></div>
+            <div className="kk">
                 <div className="kursi11">
                     <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
                     <Link className="speckursi1" onClick={activatekurs}>USD</Link>
@@ -196,12 +197,12 @@ export default function Home() {
                     <div className="evrokurs1">{Yidva2}</div>
                     <div className="evrokurs2">{Gayidva2}</div>
                     <div><img className="kursi1" src={kursi2} /></div>
-
                 </div>
             </div>
+       
 
 
-            {/* სამომსხმარებლო სესხი */}
+            {/* სამომსხმარებლო სესხი */ }
             <div className="div"><Link to="/SamomxmarebloSesxi" className="title">სამომხმარებლო სესხი</Link> </div>
             <div className="samsesxi">
                 <img className="samomsxmareblosesxi" src={samomsxmareblosesxi} />
@@ -209,20 +210,20 @@ export default function Home() {
             </div>
 
 
-            {/* ჩვენი მობილური აპლიკაცია */}
+    {/* ჩვენი მობილური აპლიკაცია */ }
             <div><h2 className="mobiluri">ჩვენი მობილური აპლიკაცია</h2> </div>
             <div className="mobilurii">
                 <div className="mobiluri2"> </div>
                 <div className="mobiluri3">ულტრათანამედროვე დიზაინით შექმნილი,
-                თქვენზე მორგებული და მინიმალისტური
-                მობილური აპლიკაცია, რომლითაც
+            თქვენზე მორგებული და მინიმალისტური
+            მობილური აპლიკაცია, რომლითაც
 უკმაყოფილო ვერ დარჩებით.</div>
                 <img className="GooglePlay" src={GooglePlay} />
                 <img className="MobileApp" src={MobileApp} />
             </div>
 
 
-        </div>
+        </div >
     )
 }
 

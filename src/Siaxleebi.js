@@ -6,15 +6,6 @@ import './Siaxleebi.css';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import Swiper from 'swiper';
 import { useEffect, useState } from "react";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useRouteMatch,
-    useParams,
-    useHistory
-} from "react-router-dom"
 
 
 
@@ -35,9 +26,17 @@ export default function Siaxleebi() {
             resize: function () {
                 swiper.changeDirection(getDirection());
             },
-            // activeIndexChange: function () {
-
-            // }
+            activeIndexChange: function () {
+                switch (swiper.activeIndex) {
+                    case 0: setNews1("ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
+                        return
+                    case 1: setNews1("1ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
+                        return
+                    case 2: setNews1("2ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
+                        return
+                    case 3: setNews1("3ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
+                }
+            }
         }
     });
 
@@ -63,6 +62,9 @@ export default function Siaxleebi() {
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
+
+            <div>{News1}</div>
+
         </div>
     )
 }

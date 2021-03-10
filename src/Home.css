@@ -1,7 +1,7 @@
 .Menu1 {
     margin: 31px 50px 67px 5px;
     font-family: BPGWEB001Caps;
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
     color: #2c2c2c;
     display: block;
@@ -13,9 +13,9 @@
 }
 
 .Menu2 {
-    margin: 31px 80px 67px 40px;
+    margin: 31px 50px 67px 30px;
     font-family: BPGWEB001Caps;
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
     color: #2c2c2c;
     display: inline;
@@ -26,9 +26,9 @@
 }
 
 .file {
-    width: 254px;
-    height: 75px;
-    margin: 0 160px 48px 89.8px;
+    width: 200px;
+    height: 70px;
+    margin: 10px 90px 48px 50px;
     object-fit: contain;
     display: inline;
     float: left;
@@ -40,11 +40,11 @@
 }
 
 .Rectangle-71 {
-    margin: 2px 34px 50px 85px;
+    margin: 10px 34px 50px 20px;
     border-radius: 5px;
     background-color: #971d62;
-    width: 246px;
-    height: 71px;
+    width: 180px;
+    height: 65px;
     font-family: BPGMrgvlovani;
     font-size: 24px;
     text-align: center;
@@ -58,11 +58,11 @@
 }
 
 .Rectangle-70 {
-    margin: 2px 36px 50px 34px;
+    margin: 10px 36px 50px 4px;
     border-radius: 5px;
     background-color: #971d62;
-    width: 246px;
-    height: 71px;
+    width: 230px;
+    height: 65px;
     font-family: BPGMrgvlovani;
     font-size: 24px;
     text-align: center;
@@ -76,9 +76,9 @@
 }
 
 .search {
-    width: 42.6px;
-    height: 42.6px;
-    margin: 20.5px 30px 60px 30px;
+    width: 40px;
+    height: 40px;
+    margin: 20px 20px 60px 0px;
     display: inline;
     float: left;
     position: relative;
@@ -88,14 +88,13 @@
     width: 1900px;
     height: 661px;
     margin: 44px 0 43px;
-    padding: 294px 23px 293.4px 13.4px;
     object-fit: contain
   }
 
 .title {
-    margin: 51px 74px 29px 140px;
+    margin: 51px 74px 29px 120px;
     font-family: BPGWEB001Caps;
-    font-size: 48px;
+    font-size: 40px;
     text-align: left;
     color: #2c2c2c;
     text-decoration: none;
@@ -104,13 +103,13 @@
 .title2 {
     margin: 51px 74px 29px 140px;
     font-family: BPGMrgvlovani;
-    font-size: 31px;
+    font-size: 27px;
     color: #77be39;
 }
 
 .title3 {
     font-family: BPGWEB001Caps;
-    font-size: 30px;  
+    font-size: 25px;  
     position: absolute;
     bottom: 8px;
     margin: 80px 80px 130px 160px;
@@ -120,31 +119,31 @@
 
 .title4 {
     font-family: BPGWEB001Caps;
-    font-size: 30px;  
+    font-size: 25px;
     position: absolute;
     bottom: 8px;
     margin: 80px 80px 130px 80px;
-    width: 450px;
+    width: 400px;
     text-align: left;
 }
 
 .title5 {
     font-family: BPGWEB001Caps;
-    font-size: 30px;  
+    font-size: 25px;  
     position: absolute;
     bottom: 8px;
     margin: 80px 80px 80px 160px;
-    width: 600px;
+    width: 500px;
     text-align: left;
 }
 
 .title6 {
     font-family: BPGWEB001Caps;
-    font-size: 30px;  
+    font-size: 25px;  
     position: absolute;
     bottom: 8px;
     margin: 80px 80px 80px 50px;
-    width: 450px;
+    width: 400px;
     text-align: left;
 }
 
@@ -153,21 +152,22 @@
    text-align: center;
    color: white;
    display: inline-block;
+   width: 50%;
 }
 
 .sesxi1 {
-    width: 800px;
-    height: 560px;
-    margin: 28px 16px 60px 120px;
+    width: 80%;
+    height: 430px;
+    margin: 28px 16px 60px 110px;
     border-radius: 20px;
     flex-basis: 50%;
     display: flex;
 }
 
 .sesxi2 {
-    width: 800px;
-    height: 560px;
-    margin: 28px 120px 60px 16px;
+    width: 80%;
+    height: 430px;
+    margin: 28px 110px 60px 16px;
     border-radius: 20px;
     flex-basis: 50%;
     float: left;

@@ -3,11 +3,11 @@
 }
 
 .Mastercard{
-    width: 700px;
+    width: 80%;
     height: 400px;
-    margin: 28px 16px 60px 120px;
+    margin: 28px 16px 60px 90px;
     border-radius: 20px;
-    flex-basis: 50%;
+    
     display: flex;
 }
 
@@ -34,9 +34,9 @@
 }
 
 .Gold{
-    width: 700px;
+    width: 80px;
     height: 400px;
-    margin: 28px 16px 60px 120px;
+    margin: 28px 16px 60px 90px;
     border-radius: 20px;
     flex-basis: 50%;
     display: flex;
@@ -44,13 +44,13 @@
 }
 
 .platinum{
-        width: 900px;
+        width: 80%;
         height: 200px;
         font-family: BPGMrgvlovani;
         font-size: 20px;
         line-height: 2.4;
         text-align: left;
-        margin: 0px 0px 0px 120px;
+        margin: 0px 0px 0px 90px;
 }
 
 .platinum2{
@@ -66,7 +66,7 @@
 .dd{
     display: flex;
     float: left;
-    margin-bottom: 70px;
+    width: 50%;
 }
 
 .title22 {

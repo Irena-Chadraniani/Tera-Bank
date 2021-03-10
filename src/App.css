@@ -42,8 +42,7 @@
     font-family: BPGMrgvlovani;
     text-align: center;
     line-height: 1.5;
-    font-size: 1.5rem;
-    min-height: max-content;
+    font-size: 1.5rem !important ;
     }
 
 .MuiList-root{
