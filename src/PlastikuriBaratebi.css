@@ -1,65 +1,65 @@
 .links2{
-   height: 400px;
+   height: 37vw;
 }
 
 .Mastercard{
-    width: 80%;
-    height: 400px;
-    margin: 28px 16px 60px 90px;
+    width: 40%;
+    height: 25vw;
+    margin: 2vw 1vw 4vw 6vw;
     border-radius: 20px;
-    
     display: flex;
+    float: left;
 }
 
 .Mastercard2{
     font-family: BPGMrgvlovani;
-    font-size: 25px;
-    line-height: 1.36;
+    font-size: 1.7vw;
+    line-height: 1.5vw;
     text-align: left;
     color: #2c2c2c;
     display: inline;
     text-align: left;
-    font-size: 18px;
     display: flex;
     float:left;
 }
 
 .Visaclassic{
-    width: 700px;
-    height: 400px;
-    margin: 28px 16px 60px 120px;
-    border-radius: 20px;
-    flex-basis: 50%;
-    display: flex;
-}
-
-.Gold{
-    width: 80px;
-    height: 400px;
-    margin: 28px 16px 60px 90px;
+    width: 40%;
+    height: 25vw;
+    margin: 2vw 1vw 4vw 6vw;
     border-radius: 20px;
     flex-basis: 50%;
     display: flex;
     float:left;
 }
 
+.Gold{
+    width: 40%;
+    height: 25vw;
+    margin: 28px 16px 60px 90px;
+    border-radius: 20px;
+    display: flex;
+    float:left;
+}
+
 .platinum{
-        width: 80%;
-        height: 200px;
+        width: 40%;
+        height: 15vw;
         font-family: BPGMrgvlovani;
-        font-size: 20px;
-        line-height: 2.4;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
         text-align: left;
-        margin: 0px 0px 0px 90px;
+        margin: 1vw 0px 0px 4vw;
+        float: left;
 }
 
 .platinum2{
-    width: 1400px;
-    height: 300px;
-    margin: 28px 16px 60px 120px;
+    width: 90%;
+    height: 15vw;
+    margin: 2vw 1vw 30vw 6vw;
     font-family: BPGMrgvlovani;
-    font-size: 20px;
-    line-height: 2.4;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
     text-align: left;
 }
 
@@ -70,9 +70,9 @@
 }
 
 .title22 {
-    margin: 51px 74px 29px 140px;
+    margin: 27vw 5vw 2vw 10vw;
     font-family: BPGWEB001Caps;
-    font-size: 48px;
+    font-size: 3vw;
     text-align: right;
     color: #2c2c2c;
     text-decoration: none;

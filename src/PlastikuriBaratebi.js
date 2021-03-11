@@ -69,7 +69,7 @@ export default function PlastikuriBaratebi() {
         <div>
             <div className="links"></div>
             <p className="title">მასტერქარდ სტანდარტი</p>
-            <div className="dd"><img className="Mastercard" src={Mastercard} />
+            <div className="kk"><img className="Mastercard" src={Mastercard} />
             <div className="platinum">
                 მასტერქარდ სტანდარტი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში.
                 <ul>
@@ -81,10 +81,10 @@ export default function PlastikuriBaratebi() {
             </div>
             </div>
 
-            <div className="links2"></div>
+            <div className="links"></div>
 
             <p className="title22">ვიზა კლასიკი</p>
-            <div className="dd">
+            <div className="kk">
             <div className="platinum">
                 <p>ვიზა კლასიკი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში..</p>
                 <ul>
@@ -97,10 +97,10 @@ export default function PlastikuriBaratebi() {
             <img className="Visaclassic" src={Visaclassic} />
             </div>
 
-            <div className="links"></div>
+            <div className="links2"></div>
 
             <p className="title">მასტერქარდ გოლდი და პლატინიუმი</p>
-            <div className="sesxi">
+            <div className="kk">
                 <img className="Gold" src={Gold} />
                 <img className="Gold" src={Platinum} />
             </div>

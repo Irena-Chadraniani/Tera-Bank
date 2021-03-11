@@ -3,14 +3,14 @@
     text-align: center;
     display: inline-block;
     width: 23%;
-    height: 500px;
+    height: 36vw;
     float: left;
     }
 
 .new{
     width: 80%;
-    height: 280px;
-    padding: 38px 0 0;
+    height: 20vw;
+    padding: 2vw 0 0;
     border-radius: 20px;
     float: left;
     position: relative;
@@ -20,31 +20,31 @@
 }
 
 .news1 {
-    margin-right: 110px;
-    margin-left: 110px; 
+    margin-right: 7vw;
+    margin-left: 7vw; 
     display: inline-block;
     width: 90%;
-    padding: 10px;
-	margin-bottom: 50px;
+    padding: 0.5vw;
+	margin-bottom: 3vw;
 	transition: transform 0.5s; 
 }
 
 .news2 {
     font-family: BPGMrgvlovani;
-    font-size: 18px;
+    font-size: 1.5vw;
     width: 90%;
     color: #2c2c2c;
     display: inline-block;
     margin: 0px;
-    height: 78px;
+    height: 5vw;
 }
 
 .news3 {
     font-family: BPGMrgvlovani;
     width: 90%;
-    margin: 38px 0px 0px 0px;
+    margin: 1.2vw 0px 0px 0px;
     display: inline-block;
-    font-size: 23px;
+    font-size: 1.8vw;
     color: #77be39;
 }
 
@@ -57,8 +57,8 @@
 
 .kursi11 {
     width: 35%;
-    height: 350px;
-    margin: 28px 16px 60px 110px;
+    height: 25vw;
+    margin: 2vw 1vw 4vw 7vw;
     border-radius: 20px;
     flex-basis: 50%;
     background-color: #971d62;
@@ -67,8 +67,8 @@
 
 .kursi22 {
     width: 35%;
-    height: 350px;
-    margin: 28px 16px 60px 110px;
+    height: 25vw;
+    margin: 2vw 1vw 4vw 7vw;
     border-radius: 20px;
     flex-basis: 50%;
     background-color: #971d62;
@@ -76,30 +76,27 @@
     }
 
 .kursi1{
-    width: 160px;
-    height: 160px;
-    margin: 40px 300px 20px 51px;
+    width: 11vw;
+    height: 11vw;
+    margin: 2vw 22vw 1vw 3vw;
     padding: 0px;
     
 }
 
 .speckursi {
-    width: 250px;
-    height: 25px;
-    margin: 15px 0 11.5px 0;
+    height: 1.5vw;
+    margin: 2vw 0.1vw 1vw 0.8vw;
     font-family: BPGWEB001Caps;
-    font-size: 19px;
+    font-size: 1.5vw;
     color: white;
     display: inline-block;
     flex-basis: 50%;
 }
 
 .speckursi1 {
-    width: 40px;
-    height: 20px;
-    margin: 2px 10px 11px 13px;
+    margin: 0.1vw 0.1vw 0.1vw 0.3vw;
     font-family: BPGMrgvlovani;
-    font-size: 19px;
+    font-size: 1.5vw;
     color: white;
     display: inline-block;
     text-decoration: none;
@@ -109,11 +106,9 @@
     text-decoration: underline;
 }
 .speckursi2 {
-    width: 40px;
-    height: 20px;
-    margin: 0 11px 12.5px 11px;
+    margin: 0.1vw 0.1vw 0.1vw 0.3vw;
     font-family: BPGMrgvlovani;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: white;
     display: inline-block;
     text-decoration: none;
@@ -123,88 +118,88 @@
 }
 
 .yidva {
-    width: 43px;
-    height: 20px;
-    margin: -190px 51px 27px 250px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: -12vw 2.5vw 2vw 17vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 
 .yidva2 {
-    width: 43px;
-    height: 20px;
-    margin: 41px 200px 70px 250px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: 2.5vw 13vw 4.6vw 17vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 .usakurs1 {
-    width: 43px;
-    height: 36px;
-    margin: -90px 80px 27px 260px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: -6vw 5vw 2vw 18vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 
 .usakurs2 {
-    width: 43px;
-    height: 36px;
-    margin: -90px 51px 27px 390px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: -6vw 7vw 2vw 27vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 
 .evrokurs1{
-    width: 43px;
-    height: 36px;
-    margin: 141px 200px 70px 260px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: 8vw 13vw 5vw 18vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 
 .evrokurs2{
-    width: 43px;
-    height: 36px;
-    margin: 141px 200px 70px 390px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: 8vw 13vw 5vw 26vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 
 .gayidva {
-    width: 43px;
-    height: 36px;
-    margin: -190px 51px 27px 370px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: -12vw 2.5vw 2vw 25vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 
 .gayidva2 {
-    width: 43px;
-    height: 36px;
-    margin: 41px 200px 70px 390px;
+    width: 2.8vw;
+    height: 1.3vw;
+    margin: 2.5vw 13vw 5vw 26vw;
     font-family: BPGMrgvlovani;
-    font-size: 25px;
+    font-size: 1.9vw;
     color: white;
     position: absolute;
 }
 
 .samomsxmareblosesxi { 
     width: 80%;
-    height: 600px;
-    margin: 29px 110px 137px;
+    height: 40vw;
+    margin: 2vw 7vw 11vw;
     border-radius: 20px;
     background-color: #d5d5d5;
     position: relative;
@@ -212,10 +207,10 @@
 
 .samomxmareblo {
     font-family: BPGWEB001Caps;
-    font-size: 21px;  
-    bottom: 8px;
-    margin: 80px 150px 225px 140px;
-    width: 450px;
+    font-size: 1.5vw;  
+    bottom: 0.5vw;
+    margin: 5vw 10vw 16vw 8vw;
+    width: 30vw;
     text-align: left;
     color: white;
     position:absolute;
@@ -226,9 +221,9 @@
 }
 
 .mobiluri{
-    margin: 0px 54px 26px 300px;
+    margin: 0px 3.6vw 2vw 20vw;
     font-family: BPGWEB001Caps;
-    font-size: 45px;
+    font-size: 3vw;
     text-align: left;
     color: #77be39;
 }
@@ -239,18 +234,18 @@
 
 .mobiluri2{
   width: 100%;
-  height: 471px;
+  height: 31vw;
   opacity: 0.11;
   background-color: #77be39;
   position: relative;
 }
 
 .mobiluri3{
-    width: 700px;
-    height: 162px;
-    margin: -430px 54px 26px 150px;
+    width: 40vw;
+    height: 10vw;
+    margin: -28vw 3.6vw 2vw 10vw;
     font-family: BPGMrgvlovani;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: left;
     color: black;
     opacity: 1;
@@ -259,115 +254,115 @@
 
 .GooglePlay{
     position: absolute;
-    width: 400px;
-    height: 250px; 
-    margin: -250px 54px 26px 150px; 
+    width: 26vw;
+    height: 16vw; 
+    margin: -16vw 3.6vw 2vw 10vw; 
 }
 
 .MobileApp{
-    width: 900px;
-    height: 580px;
+    width: 60vw;
+    height: 39vw;
     position: absolute;
     display: inline-block;
-    margin: -500px 54px 26px 700px;
+    margin: -33vw 3.6vw 2vw 47vw;
 }
 
 .footer{
     width: 100%;
-    height: 401px;
-    margin: 108px 0 0 0px;
+    height: 26vw;
+    margin: 7vw 0 0 0px;
     background-color: #971d62;
     position: relative;
   }
 
   .footerLogo{
-    width: 250px;
-    height: 250px;
+    width: 17vw;
+    height: 17vw;
     position: absolute;
-    margin: -450px 0px 200px 100px;
+    margin: -30vw 0px 13vw 6vw;
     }
 
 .facebook{
-    width: 41.7px;
-    height: 41.7px;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
-    margin: -250px 0px 100px 100px;
+    margin: -17vw 0px 0px 6vw;
     }
 
 .twitter{
-    width: 41.7px;
-    height: 41.7px;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
-    margin: -250px 0px 0px 175px;
+    margin: -17vw 0px 0px 11vw;
     }  
     
 .youtube{
-    width: 41.7px;
-    height: 41.7px;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
-    margin: -250px 0px 0px 250px;
+    margin: -17vw 0px 0px 16vw;
     } 
 
 .instagram{
-    width: 41.7px;
-    height: 41.7px;
+    width: 3vw;
+    height: 3vw;
     position: absolute;
-    margin: -250px 0px 0px 325px;
+    margin: -17vw 0px 0px 21vw;
     } 
 
 .aboutus{
    font-family: BPGWEB001Caps;
-   font-size: 25px;
+   font-size: 1.7vw;
    color:white;
    position: absolute;
-   margin: -350px 0px 0px 450px;
+   margin: -23vw 0px 0px 35vw;
 }
 
 .rules{
     font-family: BPGWEB001Caps;
-    font-size: 25px;
+    font-size: 1.7vw;
     color:white;
     position: absolute;
-    margin: -350px 0px 0px 750px;
+    margin: -23vw 0px 0px 55vw;
  }
 
  .terabank{
     font-family: BPGWEB001Caps;
-    font-size: 27px;
+    font-size: 1.7vw;
     color:white;
     position: absolute;
-    margin: -350px 0px 0px 1150px;
+    margin: -23vw 0px 0px 75vw;
  }
 
  .aboutus1{
     font-family: BPGMrgvlovani;
-    font-size: 20px;
-    width: 255px;
-    height: 90px;
+    font-size: 1.3vw;
+    width: 17vw;
+    height: 6vw;
     color:white;
     position: absolute;
-    line-height: 1.06;
-    margin: -280px 0px 0px 450px;
+    line-height: 1.5vw;
+    margin: -19vw 0px 0px 35vw;
  }
  
  .rules1{
     font-family: BPGMrgvlovani;
-    font-size: 20px;
-    width: 350px;
-    height: 90px;
+    font-size: 1.3vw;
+    width: 17vw;
+    height: 6vw;
     color:white;
     position: absolute;
-    line-height: 1.06;
-    margin: -280px 0px 0px 750px;
+    line-height: 1.5vw;
+    margin: -19vw 0px 0px 55vw;
  }
 
  .terabank1{
     font-family: BPGMrgvlovani;
-    font-size: 20px;
-    width: 350px;
-    height: 90px;
+    font-size: 1.3vw;
+    width: 17vw;
+    height: 6vw;
     color:white;
     position: absolute;
-    line-height: 1.06;
-    margin: -280px 0px 0px 1150px;
+    line-height: 1.5vw;
+    margin: -19vw 0px 0px 75vw;
  }

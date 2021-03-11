@@ -1,7 +1,7 @@
 .Menu1 {
-    margin: 31px 50px 67px 5px;
+    margin: 2.5vw 2vw 2vw 2vw;
     font-family: BPGWEB001Caps;
-    font-size: 22px;
+    font-size: 1.8vw;
     text-align: left;
     color: #2c2c2c;
     display: block;
@@ -13,9 +13,9 @@
 }
 
 .Menu2 {
-    margin: 31px 50px 67px 30px;
+    margin: 2.5vw 2vw 2vw 2vw;
     font-family: BPGWEB001Caps;
-    font-size: 22px;
+    font-size: 1.8vw;
     text-align: left;
     color: #2c2c2c;
     display: inline;
@@ -26,9 +26,9 @@
 }
 
 .file {
-    width: 200px;
-    height: 70px;
-    margin: 10px 90px 48px 50px;
+    width: 15vw;
+    height: 5vw;
+    margin: 1vw 4vw 3vw 2vw;
     object-fit: contain;
     display: inline;
     float: left;
@@ -40,13 +40,13 @@
 }
 
 .Rectangle-71 {
-    margin: 10px 34px 50px 20px;
+    margin: 1.2vw 2vw 3.5vw 1.3vw;
     border-radius: 5px;
     background-color: #971d62;
-    width: 180px;
-    height: 65px;
+    width: 11vw;
+    height: 4vw;
     font-family: BPGMrgvlovani;
-    font-size: 24px;
+    font-size: 1.6vw;
     text-align: center;
     color: white;
     float: left;
@@ -58,13 +58,13 @@
 }
 
 .Rectangle-70 {
-    margin: 10px 36px 50px 4px;
+    margin: 1.2vw 2vw 3.5vw 1.3vw;
     border-radius: 5px;
     background-color: #971d62;
-    width: 230px;
-    height: 65px;
+    width: 16vw;
+    height: 4vw;
     font-family: BPGMrgvlovani;
-    font-size: 24px;
+    font-size: 1.6vw;
     text-align: center;
     color: white;
     display: flex;
@@ -76,74 +76,73 @@
 }
 
 .search {
-    width: 40px;
-    height: 40px;
-    margin: 20px 20px 60px 0px;
+    width: 3vw;
+    height: 3vw;
+    margin: 2vw 2vw 4vw 0vw;
     display: inline;
     float: left;
     position: relative;
 }
 
 .swiper-container {
-    width: 1900px;
-    height: 661px;
-    margin: 44px 0 43px;
+    width: 126vw;
+    height: 44vw;
+    margin: 3vw 0 3vw;
     object-fit: contain
   }
 
 .title {
-    margin: 51px 74px 29px 120px;
+    margin: 3vw 5vw 2vw 6vw;
     font-family: BPGWEB001Caps;
-    font-size: 40px;
+    font-size: 2.8vw;
     text-align: left;
     color: #2c2c2c;
     text-decoration: none;
 }
 
 .title2 {
-    margin: 51px 74px 29px 140px;
+    margin: 3vw 5vw 2vw 8vw;
     font-family: BPGMrgvlovani;
-    font-size: 27px;
+    font-size: 2vw;
     color: #77be39;
 }
 
 .title3 {
     font-family: BPGWEB001Caps;
-    font-size: 25px;  
+    font-size: 1.7vw;  
     position: absolute;
     bottom: 8px;
-    margin: 80px 80px 130px 160px;
-    width: 350px;
+    margin: 5vw 5vw 8vw 11vw;
+    width: 23vw;
     text-align: left;
 }
 
 .title4 {
     font-family: BPGWEB001Caps;
-    font-size: 25px;
+    font-size: 1.7vw;
     position: absolute;
     bottom: 8px;
-    margin: 80px 80px 130px 80px;
-    width: 400px;
+    margin: 5vw 5vw 8vw 5vw;
+    width: 26vw;
     text-align: left;
 }
 
 .title5 {
     font-family: BPGWEB001Caps;
-    font-size: 25px;  
+    font-size: 1.7vw;  
     position: absolute;
     bottom: 8px;
-    margin: 80px 80px 80px 160px;
-    width: 500px;
+    margin: 5vw 5vw 5vw 12vw;
     text-align: left;
 }
 
 .title6 {
     font-family: BPGWEB001Caps;
-    font-size: 25px;  
+    font-size: 1.7vw;   
     position: absolute;
     bottom: 8px;
-    margin: 80px 80px 80px 50px;
-    width: 400px;
+    margin: 5vw 5vw 5vw 5vw;
+    width: 26vw;
     text-align: left;
 }
 
@@ -157,8 +156,8 @@
 
 .sesxi1 {
     width: 80%;
-    height: 430px;
-    margin: 28px 16px 60px 110px;
+    height: 29vw;
+    margin: 1.8vw 1vw 4vw 7vw;
     border-radius: 20px;
     flex-basis: 50%;
     display: flex;
@@ -166,8 +165,8 @@
 
 .sesxi2 {
     width: 80%;
-    height: 430px;
-    margin: 28px 110px 60px 16px;
+    height: 29vw;
+    margin: 1.8vw 7vw 4vw 1vw;
     border-radius: 20px;
     flex-basis: 50%;
     float: left;
@@ -179,8 +178,8 @@
     display: inline-block;
     width: 50%;
     text-decoration: none;
-    height: 80px;
-    margin-top: 80px;
+    height: 4vw;
+    margin-top: 4vw;
 }
 
 .div2{
@@ -189,3 +188,9 @@
     text-align: right;  
 }
 
+.main_wrap{
+    margin:0 auto;
+    width:100%;
+    position:relative;
+    overflow: hidden;
+  }

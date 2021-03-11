@@ -84,7 +84,7 @@ export default function Home() {
 
     return (
         // სლაიდერი
-        <div>
+        <div className="main_wrap">
             <Swiper
                 className="swiper-container"
                 slidesPerView={1}
