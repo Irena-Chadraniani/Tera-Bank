@@ -1,62 +1,36 @@
 .links2{
-   height: 37vw;
+   height: 20vw;
 }
 
 .Mastercard{
-    width: 40%;
+    width: 33vw;
     height: 25vw;
-    margin: 2vw 1vw 4vw 6vw;
     border-radius: 20px;
-    display: flex;
-    float: left;
 }
 
-.Mastercard2{
-    font-family: BPGMrgvlovani;
-    font-size: 1.7vw;
-    line-height: 1.5vw;
-    text-align: left;
-    color: #2c2c2c;
-    display: inline;
-    text-align: left;
-    display: flex;
-    float:left;
-}
 
 .Visaclassic{
-    width: 40%;
+    width: 33vw;
     height: 25vw;
-    margin: 2vw 1vw 4vw 6vw;
     border-radius: 20px;
-    flex-basis: 50%;
-    display: flex;
-    float:left;
 }
 
 .Gold{
-    width: 40%;
+    width: 33vw;
     height: 25vw;
-    margin: 28px 16px 60px 90px;
     border-radius: 20px;
-    display: flex;
-    float:left;
 }
 
 .platinum{
-        width: 40%;
-        height: 15vw;
+        width: 33vw;
         font-family: BPGMrgvlovani;
-        font-size: 1.5vw;
+        font-size: 1.4vw;
         line-height: 2.5vw;
         text-align: left;
-        margin: 1vw 0px 0px 4vw;
-        float: left;
 }
 
 .platinum2{
-    width: 90%;
-    height: 15vw;
-    margin: 2vw 1vw 30vw 6vw;
+    margin: 2vw 1vw 0vw 6vw;
     font-family: BPGMrgvlovani;
     font-size: 1.5vw;
     line-height: 2.5vw;
@@ -70,7 +44,7 @@
 }
 
 .title22 {
-    margin: 27vw 5vw 2vw 10vw;
+    margin: 2vw 5vw 2vw 10vw;
     font-family: BPGWEB001Caps;
     font-size: 3vw;
     text-align: right;

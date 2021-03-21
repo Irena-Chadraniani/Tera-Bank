@@ -4,66 +4,51 @@ import news3 from './photos/news3.png';
 import news4 from './photos/news4.png';
 import './Siaxleebi.css';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import Swiper from 'swiper';
-import { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 export default function Siaxleebi() {
-    SwiperCore.use([Navigation, Pagination]);
-
-    const [News1, setNews1] = useState("");
-
-
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 3,
-        direction: getDirection(),
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        on: {
-            resize: function () {
-                swiper.changeDirection(getDirection());
-            },
-            activeIndexChange: function () {
-                switch (swiper.activeIndex) {
-                    case 0: setNews1("ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
-                        return
-                    case 1: setNews1("1ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
-                        return
-                    case 2: setNews1("2ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
-                        return
-                    case 3: setNews1("3ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს");
-                }
-            }
-        }
-    });
-
-    function getDirection() {
-        var windowWidth = window.innerWidth;
-        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-        return direction;
-    }
-
+ 
     return (
         <div>
-            <div className="links"></div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src={news1} /></div>
-                    <div class="swiper-slide"><img src={news2} /></div>
-                    <div class="swiper-slide"><img src={news3} /></div>
-                    <div class="swiper-slide"><img src={news4} /></div>
+            <div className="main_wrap">
+            <Swiper
+                className="swiper-container"
+                slidesPerView={3}
+                navigation={{
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                }}
+            >
+                <SwiperSlide><img className="swiper-container" src={news1} /></SwiperSlide>
+                <SwiperSlide><img className="swiper-container" src={news2} /></SwiperSlide>
+                <SwiperSlide><img className="swiper-container" src={news3} /></SwiperSlide>
+                <SwiperSlide><img className="swiper-container" src={news4} /></SwiperSlide>
+                
+
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
+            </Swiper>
+
+        </div>
+<div>
+<h2 className="turebi">მივდივართ საქართველოში — ტერაბანკი კვლავაც შიდა ტურიზმის მხარდასაჭერად</h2>
+<p className="turebi2">თარიღი : 22.07.2020</p>
+<div className="turebi3"><p>ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს. </p>
+<p>კამპანიას 4 ტერაგიდი ეყოლება: მწერალი გიორგი კეკელიძე, ბროლის ბუს მფლობელი და მწერალი დათო გორგილაძე, წამყვანი და მოგზაური ნუცა გამცემლიძე და იაპონელი ქართველოლოგი იასუჰირო კოჯიმა. ისინი ქვეყნის 4 რეგიონში — რაჭაში, აჭარაში, სამცხე-ჯავახეთსა და სამეგრელოში იმოგზაურებენ, განსხვავებულ მარშრუტებს გაივლიან და მათ შესახებ მოკლე, შემეცნებითი გადაცემებით მაყურებელს ყველა საჭირო და სასარგებლო ინფორმაციას მიაწვდიან. </p> 
+<p>კამპანიის ინსპირაციად იქცა უცხო საქართველო, რომლის აღმოჩენაც ნებისმიერისთვის შთამბეჭდავი და საამაყო იქნება. მისი მთავარი მიზანია, ის საინტერესო და ამავდროულად უცხო ადგილები თუ ღირსშესანიშნაობები წარმოაჩინოს, რომლებიც ბევრი ადამიანისთვის ჯერ კიდევ აღმოუჩენელი ან ნაკლებად ცნობილია, მსურველებს მეგზურობა 
+ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს.</p>
+
+<p>კამპანიას 4 ტერაგიდი ეყოლება: მწერალი გიორგი კეკელიძე, ბროლის ბუს მფლობელი და მწერალი დათო გორგილაძე, წამყვანი და მოგზაური ნუცა გამცემლიძე და იაპონელი ქართველოლოგი იასუჰირო კოჯიმა. ისინი ქვეყნის 4 რეგიონში — რაჭაში, აჭარაში, სამცხე-ჯავახეთსა და სამეგრელოში იმოგზაურებენ, განსხვავებულ მარშრუტებს გაივლიან და მათ შესახებ მოკლე, შემეცნებითი გადაცემებით მაყურებელს ყველა საჭირო და სასარგებლო ინფორმაციას მიაწვდიან. </p> 
+<p>კამპანიის ინსპირაციად იქცა უცხო საქართველო, რომლის აღმოჩენაც ნებისმიერისთვის შთამბეჭდავი და საამაყო იქნება. მისი მთავარი მიზანია, ის საინტერესო და ამავდროულად უცხო ადგილები თუ ღირსშესანიშნაობები წარმოაჩინოს, რომლებიც ბევრი ადამიანისთვის ჯერ კიდევ აღმოუჩენელი ან ნაკლებად ცნობილია, მსურველებს მეგზურობა ტერაბანკი ახალ საზაფხულო ამპანიას „მივდივართ საქართველოში“ იწყებს და ამ ინიციატივით შიდა ტურიზმის მხარდაჭერას კვლავაც აგრძელებს. </p> 
+<p>კამპანიას 4 ტერაგიდი ეყოლება: მწერალი გიორგი კეკელიძე, ბროლის ბუს მფლობელი და მწერალი დათო გორგილაძე, წამყვანი და მოგზაური ნუცა გამცემლიძე და იაპონელი ქართველოლოგი იასუჰირო კოჯიმა. ისინი ქვეყნის 4 რეგიონში — რაჭაში, აჭარაში, სამცხე-ჯავახეთსა და სამეგრელოში იმოგზაურებენ, განსხვავებულ მარშრუტებს გაივლიან და მათ შესახებ მოკლე, შემეცნებითი გადაცემებით მაყურებელს ყველა საჭირო და სასარგებლო ინფორმაციას მიაწვდიან.  </p>
+<p>კამპანიის ინსპირაციად იქცა უცხო საქართველო, რომლის აღმოჩენაც ნებისმიერისთვის შთამბეჭდავი და საამაყო იქნება. მისი მთავარი მიზანია, ის საინტერესო და ამავდროულად უცხო ადგილები თუ ღირსშესანიშნაობები წარმოაჩინოს, რომლებიც ბევრი ადამიანისთვის ჯერ კიდევ აღმოუჩენელი ან ნაკლებად ცნობილია, მსურველებს მეგზურობა. </p> </div>
+</div>
 
 
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
 
-            <div>{News1}</div>
+
 
         </div>
     )

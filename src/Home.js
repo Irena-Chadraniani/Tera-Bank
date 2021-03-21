@@ -30,7 +30,6 @@ import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useEffect, useState } from "react";
 
-
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
@@ -106,32 +105,45 @@ export default function Home() {
             <div className="div"><Link className="title">იპოთეკური სესხები</Link></div>
             <div className="div2"><Link className="title2">იხილეთ ყველა</Link></div>
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="sesxi">
+                            <Link><img className="sesxi1" src={sesxi1} /></Link>
+                            <div className="title3"><h2>შეიძინე ბინა ისარგებლე სუბსიდიით</h2></div>
+                        </div>
+                    </div>
 
-            <div className="sesxi">
-                <Link><img className="sesxi1" src={sesxi1} /></Link>
-                <div className="title3"><h2>შეიძინე ბინა ისარგებლე სუბსიდიით</h2></div>
+                    <div class="col-sm">
+                        <div className="sesxi">
+                            <Link><img className="sesxi2" src={sesxi2} /></Link>
+                            <div className="title4"><h2>იპოთეკური სესხი 12%-დან</h2></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-            <div className="sesxi">
-                <Link><img className="sesxi2" src={sesxi2} /></Link>
-                <div className="title4"><h2>იპოთეკური სესხი 12%-დან</h2></div>
-            </div>
-
 
 
             {/* პლასტიკური ბარათები */}
             <div className="div"><Link to="/PlastikuriBaratebi" className="title">პლასტიკური ბარათები</Link> </div>
             <div className="div2"> <Link className="title2">იხილეთ ყველა</Link> </div>
 
-            <div className="sesxi">
-                <Link><img className="sesxi1" src={barati2} /></Link>
-                <div className="title5"><h2>უნივერსალური ბარათი ყველა შემთხვევისთვის</h2></div>
-            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="sesxi">
+                            <Link><img className="sesxi1" src={barati2} /></Link>
+                            <div className="title5"><h2>უნივერსალური ბარათი ყველა შემთხვევისთვის</h2></div>
+                        </div>
+                    </div>
 
-            <div className="sesxi">
-                <Link><img className="sesxi2" src={barati1} /></Link>
-                <div className="title6"><h2>ვიზა ბარათები გახდი სოლიდური</h2></div>
+                    <div class="col-sm">
+                        <div className="sesxi">
+                            <Link><img className="sesxi2" src={barati1} /></Link>
+                            <div className="title6"><h2>ვიზა ბარათები გახდი სოლიდური</h2></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -141,68 +153,77 @@ export default function Home() {
             <div className="div"><Link className="title" to="/Siaxleebi">სიახლეები</Link></div>
             <div className="div2"> <Link to="/Siaxleebi" className="title2">იხილეთ ყველა</Link> </div>
 
-            <div className="news1">
-                <div className="news">
-                    <Link><img className="new" src={news1} /></Link>
-                    <h2 className="news3">3 აგვისტო, 2020</h2>
-                    <h4 className="news2">მივდივართ საქართველოში — ტერაბანკი კვლავაც შიდა ტურიზმის მხარდასაჭერად</h4>
-                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <Link><img className="new" src={news1} /></Link>
+                        <h2 className="news3">3 აგვისტო, 2020</h2>
+                        <h4 className="news2">მივდივართ საქართველოში — ტერაბანკი კვლავაც შიდა ტურიზმის მხარდასაჭერად</h4>
+                    </div>
 
-                <div className="news">
-                    <Link><img className="new" src={news2} /></Link>
-                    <h2 className="news3">2 აგვისტო, 2020</h2>
-                    <h4 className="news2">ტერა ბოტინი ვერცხლის პრიზიორია - ინოვაციური ბოტის კამპანიამ საერთაშორისო ჯილდო მიიღო</h4>
-                </div>
+                    <div class="col-sm">
+                        <Link><img className="new" src={news2} /></Link>
+                        <h2 className="news3">2 აგვისტო, 2020</h2>
+                        <h4 className="news2">ტერა ბოტინი ვერცხლის პრიზიორია - ინოვაციური ბოტის კამპანიამ საერთაშორისო ჯილდო მიიღო</h4>
+                    </div>
 
-                <div className="news">
-                    <Link><img className="new" src={news3} /></Link>
-                    <h2 className="news3">27 ივლისი, 2020</h2>
-                    <h4 className="news2">სუბსიდირებული იპოთეკური კრედიტების მხარდაჭერის სახელმწიფო პროგრამა</h4>
-                </div>
+                    <div class="col-sm">
+                        <Link><img className="new" src={news3} /></Link>
+                        <h2 className="news3">27 ივლისი, 2020</h2>
+                        <h4 className="news2">სუბსიდირებული იპოთეკური კრედიტების მხარდაჭერის სახელმწიფო პროგრამა</h4>
+                    </div>
 
-                <div className="news">
-                    <Link><img className="new" src={news4} /></Link>
-                    <h2 className="news3">20 ივლისი, 2020</h2>
-                    <div className="news2"><h4 className="news2">ტერაბანკის ინიციატივა ბიზნესკლიენტების მხარდასაჭერად</h4></div>
+                    <div class="col-sm">
+                        <Link><img className="new" src={news4} /></Link>
+                        <h2 className="news3">20 ივლისი, 2020</h2>
+                        <div className="news2"><h4 className="news2">ტერაბანკის ინიციატივა ბიზნესკლიენტების მხარდასაჭერად</h4></div>
+                    </div>
                 </div>
             </div>
+
 
 
             {/* საუკეთესო კურსი */}
             <div className="div"><Link className="title">საუკეთესო კურსი</Link> </div>
             <div></div>
-            <div className="kk">
-                <div className="kursi11">
-                    <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
-                    <Link className="speckursi1" onClick={activatekurs}>USD</Link>
-                    <Link className="speckursi2" onClick={activatekurs}>EUR</Link>
-                    <Link className="speckursi2" onClick={activatekurs}>GBP</Link>
-                    <Link className="speckursi2" onClick={activatekurs}>RUR</Link>
-                    <div><img className="kursi1" src={kursi1} /></div>
-                    <div className="yidva">ყიდვა</div>
-                    <div className="gayidva">გაყიდვა</div>
-                    <div className="usakurs1" >{Yidva1}</div>
-                    <div className="usakurs2">{Gayidva1}</div>
-                </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="kursi11">
+                            <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
+                            <Link className="speckursi1" onClick={activatekurs}>USD</Link>
+                            <Link className="speckursi2" onClick={activatekurs}>EUR</Link>
+                            <Link className="speckursi2" onClick={activatekurs}>GBP</Link>
+                            <Link className="speckursi2" onClick={activatekurs}>RUR</Link>
+                            <div><img className="kursi1" src={kursi1} /></div>
+                            <div className="yidva">ყიდვა</div>
+                            <div className="gayidva">გაყიდვა</div>
+                            <div className="usakurs1" >{Yidva1}</div>
+                            <div className="usakurs2">{Gayidva1}</div>
+                        </div>
+                    </div>
 
 
-                <div className="kursi22">
-                    <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
-                    <Link className="speckursi1" onClick={activatekurs2}>USD</Link>
-                    <Link className="speckursi2" onClick={activatekurs2}>EUR</Link>
-                    <Link className="speckursi2" onClick={activatekurs2}>GBP</Link>
-                    <Link className="speckursi2" onClick={activatekurs2}>RUR</Link>
-                    <div className="yidva2">ყიდვა</div>
-                    <div className="gayidva2">გაყიდვა</div>
-                    <div className="evrokurs1">{Yidva2}</div>
-                    <div className="evrokurs2">{Gayidva2}</div>
-                    <div><img className="kursi1" src={kursi2} /></div>
+                    <div class="col-sm">
+                        <div className="kursi22">
+                            <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
+                            <Link className="speckursi1" onClick={activatekurs2}>USD</Link>
+                            <Link className="speckursi2" onClick={activatekurs2}>EUR</Link>
+                            <Link className="speckursi2" onClick={activatekurs2}>GBP</Link>
+                            <Link className="speckursi2" onClick={activatekurs2}>RUR</Link>
+                            <div className="yidva2">ყიდვა</div>
+                            <div className="gayidva2">გაყიდვა</div>
+                            <div className="evrokurs1">{Yidva2}</div>
+                            <div className="evrokurs2">{Gayidva2}</div>
+                            <div><img className="kursi1" src={kursi2} /></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-       
 
 
-            {/* სამომსხმარებლო სესხი */ }
+            {/* სამომსხმარებლო სესხი */}
             <div className="div"><Link to="/SamomxmarebloSesxi" className="title">სამომხმარებლო სესხი</Link> </div>
             <div className="samsesxi">
                 <img className="samomsxmareblosesxi" src={samomsxmareblosesxi} />
@@ -210,13 +231,13 @@ export default function Home() {
             </div>
 
 
-    {/* ჩვენი მობილური აპლიკაცია */ }
+            {/* ჩვენი მობილური აპლიკაცია */}
             <div><h2 className="mobiluri">ჩვენი მობილური აპლიკაცია</h2> </div>
             <div className="mobilurii">
                 <div className="mobiluri2"> </div>
                 <div className="mobiluri3">ულტრათანამედროვე დიზაინით შექმნილი,
-            თქვენზე მორგებული და მინიმალისტური
-            მობილური აპლიკაცია, რომლითაც
+                თქვენზე მორგებული და მინიმალისტური
+                მობილური აპლიკაცია, რომლითაც
 უკმაყოფილო ვერ დარჩებით.</div>
                 <img className="GooglePlay" src={GooglePlay} />
                 <img className="MobileApp" src={MobileApp} />

@@ -69,41 +69,65 @@ export default function PlastikuriBaratebi() {
         <div>
             <div className="links"></div>
             <p className="title">მასტერქარდ სტანდარტი</p>
-            <div className="kk"><img className="Mastercard" src={Mastercard} />
-            <div className="platinum">
-                მასტერქარდ სტანდარტი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში.
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img className="Mastercard" src={Mastercard} />
+                    </div>
+
+                    <div class="col-sm">
+                        <div className="platinum">
+                            მასტერქარდ სტანდარტი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში.
                 <ul>
-                    <li>განაღდების მაღალი ლიმიტები</li>
-                    <li>შეუზღუდავი ონლაინ გადახდები</li>
-                    <li>SMS შეტყობინებები ბარათზე განხორციელებული ტრანზაქციების შესახებ</li>
-                    <li>ტერაბანკის ბარათების მფლობელთათვის თანხის გადარიცხვის შესაძლებლობა ტერაბანკის ნებისმიერ ბარათზე, ბანკომატის საშუალებით</li>
-                </ul>
-            </div>
+                                <li>განაღდების მაღალი ლიმიტები</li>
+                                <li>შეუზღუდავი ონლაინ გადახდები</li>
+                                <li>SMS შეტყობინებები ბარათზე განხორციელებული ტრანზაქციების შესახებ</li>
+                                <li>ტერაბანკის ბარათების მფლობელთათვის თანხის გადარიცხვის შესაძლებლობა ტერაბანკის ნებისმიერ ბარათზე, ბანკომატის საშუალებით</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div className="links"></div>
 
             <p className="title22">ვიზა კლასიკი</p>
-            <div className="kk">
-            <div className="platinum">
-                <p>ვიზა კლასიკი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში..</p>
-                <ul>
-                    <li>განაღდებისა და ანგარიშსწორების მაღალი ლიმიტი</li>
-                    <li>SMS შეტყობინებები ბარათზე განხორციელებული ტრანზაქციების შესახებ</li>
-                    <li>ტერაბანკის ბარათების მფლობელთათვის თანხის გადარიცხვის შესაძლებლობა ტერაბანკის ნებისმიერ ბარათზე, ბანკომატის საშუალებით</li>
-                    <li>საბარათე ოპერაციების უსაფრთხოების სერვისი.</li>
-                </ul>
-            </div>
-            <img className="Visaclassic" src={Visaclassic} />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="platinum">
+                            <p>ვიზა კლასიკი საშუალებას გაძლევთ, გამოიყენოთ თქვენს საბარათე ანგარიშზე არსებული თანხები, როგორც საქართველოში, ასევე მსოფლიოს ნებისმიერ ქვეყანაში. განახორციელოთ უფასო ანგარიშსწორება სავაჭრო და მომსახურების ობიექტებში..</p>
+                            <ul>
+                                <li>განაღდებისა და ანგარიშსწორების მაღალი ლიმიტი</li>
+                                <li>SMS შეტყობინებები ბარათზე განხორციელებული ტრანზაქციების შესახებ</li>
+                                <li>ტერაბანკის ბარათების მფლობელთათვის თანხის გადარიცხვის შესაძლებლობა ტერაბანკის ნებისმიერ ბარათზე, ბანკომატის საშუალებით</li>
+                                <li>საბარათე ოპერაციების უსაფრთხოების სერვისი.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <img className="Visaclassic" src={Visaclassic} />
+                    </div>
+                </div>
             </div>
 
-            <div className="links2"></div>
+
 
             <p className="title">მასტერქარდ გოლდი და პლატინიუმი</p>
-            <div className="kk">
-                <img className="Gold" src={Gold} />
-                <img className="Gold" src={Platinum} />
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <img className="Gold" src={Gold} />
+                    </div>
+
+                    <div class="col-sm">
+                        <img className="Gold" src={Platinum} />
+                    </div>
+                </div>
             </div>
+
+
             <div className="platinum2">
                 <p>მასტერქარდ გოლდი საშუალებას გაძლევთ, მსოფლიოს ნებისმიერ წერტილში მიიღოთ VIP მომსახურება და ფასდაკლებები სხვადასხვა სავაჭრო თუ მომსახურების ობიექტში.</p>
                 <ul>
@@ -116,36 +140,41 @@ export default function PlastikuriBaratebi() {
 
             {/* საუკეთესო კურსი */}
             <div className="div"><Link className="title"><h2 className="title">საუკეთესო კურსი</h2></Link> </div>
-            <div>
-                <div className="kursi11">
-                    <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
-                    <Link className="speckursi1" onClick={activatekurs}>USD</Link>
-                    <Link className="speckursi2" onClick={activatekurs}>EUR</Link>
-                    <Link className="speckursi2" onClick={activatekurs}>GBP</Link>
-                    <Link className="speckursi2" onClick={activatekurs}>RUR</Link>
-                    <div><img className="kursi1" src={kursi1} /></div>
-                    <div className="yidva">ყიდვა</div>
-                    <div className="gayidva">გაყიდვა</div>
-                    <div className="usakurs1" >{Yidva1}</div>
-                    <div className="usakurs2">{Gayidva1}</div>
-                </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div className="kursi11">
+                            <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
+                            <Link className="speckursi1" onClick={activatekurs}>USD</Link>
+                            <Link className="speckursi2" onClick={activatekurs}>EUR</Link>
+                            <Link className="speckursi2" onClick={activatekurs}>GBP</Link>
+                            <Link className="speckursi2" onClick={activatekurs}>RUR</Link>
+                            <div><img className="kursi1" src={kursi1} /></div>
+                            <div className="yidva">ყიდვა</div>
+                            <div className="gayidva">გაყიდვა</div>
+                            <div className="usakurs1" >{Yidva1}</div>
+                            <div className="usakurs2">{Gayidva1}</div>
+                        </div>
+                    </div>
 
 
-                <div className="kursi22">
-                    <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
-                    <Link className="speckursi1" onClick={activatekurs2}>USD</Link>
-                    <Link className="speckursi2" onClick={activatekurs2}>EUR</Link>
-                    <Link className="speckursi2" onClick={activatekurs2}>GBP</Link>
-                    <Link className="speckursi2" onClick={activatekurs2}>RUR</Link>
-                    <div className="yidva2">ყიდვა</div>
-                    <div className="gayidva2">გაყიდვა</div>
-                    <div className="evrokurs1">{Yidva2}</div>
-                    <div className="evrokurs2">{Gayidva2}</div>
-                    <div><img className="kursi1" src={kursi2} /></div>
-
+                    <div class="col-sm">
+                        <div className="kursi22">
+                            <div className="speckursi">ტერაბანკი(სპეც კურსი)</div>
+                            <Link className="speckursi1" onClick={activatekurs2}>USD</Link>
+                            <Link className="speckursi2" onClick={activatekurs2}>EUR</Link>
+                            <Link className="speckursi2" onClick={activatekurs2}>GBP</Link>
+                            <Link className="speckursi2" onClick={activatekurs2}>RUR</Link>
+                            <div className="yidva2">ყიდვა</div>
+                            <div className="gayidva2">გაყიდვა</div>
+                            <div className="evrokurs1">{Yidva2}</div>
+                            <div className="evrokurs2">{Gayidva2}</div>
+                            <div><img className="kursi1" src={kursi2} /></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className="links2"></div>
 
         </div>
     )
